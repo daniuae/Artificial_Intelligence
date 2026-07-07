@@ -728,19 +728,29 @@ Much more autonomous.
 
 # Complete Comparison
 
-| Feature | Prompt | Workflow | RAG | Agent |
-|----------|---------|----------|------|--------|
-| Uses LLM | Yes | Sometimes | Yes | Yes |
-| Multiple Steps | No | Yes | Yes | Yes |
-| Planning | No | Fixed | Fixed | Dynamic |
-| Decision Making | No | No | No | Yes |
-| Uses External Data | No | Sometimes | Yes | Yes |
-| Uses Vector Database | No | No | Yes | Optional |
-| Uses APIs | No | Yes | Sometimes | Yes |
-| Uses Memory | Limited | No | Optional | Yes |
-| Autonomous | No | No | No | Yes |
-| Can Take Actions | No | Sometimes | No | Yes |
+## Prompt vs Workflow vs RAG vs AI Agent
 
+| Feature | Prompt | Workflow | RAG (Retrieval-Augmented Generation) | AI Agent |
+|----------|--------|----------|--------------------------------------|----------|
+| **Uses LLM** | ✅ Yes | ✅ Sometimes | ✅ Yes | ✅ Yes |
+| **Multiple Steps** | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Planning** | ❌ No | 🔒 Fixed | 🔒 Fixed | ✅ Dynamic |
+| **Decision Making** | ❌ No | ❌ No | ❌ No | ✅ Yes |
+| **Uses External Data** | ❌ No | ✅ Sometimes | ✅ Yes | ✅ Yes |
+| **Uses Vector Database** | ❌ No | ❌ No | ✅ Yes | ✅ Optional |
+| **Uses APIs / Tools** | ❌ No | ✅ Yes | ✅ Sometimes | ✅ Yes |
+| **Uses Memory** | ⚠️ Limited | ❌ No | ✅ Optional | ✅ Yes |
+| **Autonomous** | ❌ No | ❌ No | ❌ No | ✅ Yes |
+| **Can Take Actions** | ❌ No | ✅ Sometimes | ❌ No | ✅ Yes |
+
+### Summary
+
+| Type | Best Used For |
+|------|----------------|
+| **Prompt** | Asking a single question or generating one response |
+| **Workflow** | Automating a predefined sequence of tasks |
+| **RAG** | Answering questions using external knowledge and documents |
+| **AI Agent** | Solving complex problems by planning, reasoning, using tools, and taking actions autonomously |
 ---
 
 # Real-World Example
