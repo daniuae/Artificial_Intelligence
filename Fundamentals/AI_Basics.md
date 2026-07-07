@@ -435,7 +435,8 @@ Answer
 
 # 4. What is an AI Agent?
 
-An **AI Agent** is an intelligent software system that uses an LLM as its reasoning engine but can also plan, remember, use tools, and perform actions to achieve a goal.
+An **AI Agent** is an intelligent software system that uses an LLM as its reasoning engine but can also plan,
+remember, use tools, and perform actions to achieve a goal.
 
 An agent is much more than a chatbot.
 
